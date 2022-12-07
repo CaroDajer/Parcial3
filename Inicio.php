@@ -12,11 +12,11 @@
     <form method="post">
     <h1> <legend class= dt>DOBLE T MATUTINO</h1> </legend>
         <h3>Bienvenido al blog de noticias!! con doble t matutino</h3>
-        <button>
+        <input type="submit" name="nuevo">
     </form>
-    
-    
-    <?php $conex=mysqli_connect("localhost", "root", "", "inicio") ?>
+    <?php $conex=mysqli_connect("localhost", "root", "", "inicio") 
+          include(NuevArch.php);
+    ?>
 
 </body>
 </html>
