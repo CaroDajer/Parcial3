@@ -8,13 +8,15 @@
     <title>Nuevo Archivo</title>
 </head>
 <body>
-    <p>Comienza añadir tu nuevo artículo (: </p>
+    <p>Comienza añadir tu nuevo artículo (:  <a href="./Inicio.php"> <button>Regresar</button> </a> </p>
+    <form action="./Guardar.php" method="post">
         <h3> Titulo: <input type="text" name="titulo" class="uno"> </h3>
         <h3> URL de la imagen: <input type="text" name="URL" class="dos"></h3>
         <h3>Descripcion: <input type="text" name="descripcion" class="tres"></h3>
         <h3> Nombre del autor: <input type="text" name="autor" class="uno"> </h3>
         <h3>Fecha de publiacion: <input type="date" name="dia" class="cuatro"></h3>
         <input type="submit" name="nuevo">  
+    </form>
 </body>
-<?php $conex=mysqli_connect("localhost", "root", "", "inicio") ?>
+
 </html>
