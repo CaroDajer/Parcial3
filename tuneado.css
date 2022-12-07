@@ -1,0 +1,18 @@
+form{
+    background-color: palevioletred;
+}
+
+h1.dt{
+    text-align: center;
+    color: goldenrod;
+}
+
+input{
+    width: 100px x 250px;
+    margin:auto;
+    font-size: medium;
+    background-color: burlywood;
+    color:black;
+    align-self: center;
+
+}
